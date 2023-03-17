@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Doutor - Login</title>
+    <!--Icone-->
+    <link rel="icon" href="https://appdoutor.com/wp-content/uploads/2021/07/favicon.png" type="image/png">
+    <!--Fonte-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div id="overlay" onclick="off()">
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="login-container">
+        <div class="logo-container vertical-center">
+            <img src="assets/images/logos/img_login.jpg" alt="Login">
+        </div>
+        <div class=" vertical-center text-center">
+            <div class="container">
+                <div class="login">
+                    <div class="col-md-6 offset-md-3">
+                        <form class="formLogin" method=="POST">
+                            <img class="mb-4 cad-fot" src="assets/images/logos/appdoutor-logo.png" width="200">
+                            <div class="form mb-3">
+                                <label class="text-muted text-cad" for="floatingInput">Digite seu E-mail</label>
+                                <input type="email" class="form-control text-center cad-1" id="floatingInput"
+                                    placeholder="email@email.com">
+                            </div>
+                            <div class="form mb-3">
+                                <label class="text-muted text-cad" for="floatingPassword">Digite sua senha</label>
+                                <input type="password" class="form-control text-center cad-1" id="floatingPassword"
+                                    placeholder="Senha">
+                            </div>
+
+                            <div class="checkbox mb-3"></div>
+
+                            <button class="w-100 btn btn-lg btn-primary" type="submit"
+                                style="background: #21d23e; height: 60px;">Entrar</button>
+
+                            <p class="mt-5 mb-3 text-muted text-cad">
+                                <a class="esq-senha" id="forgot-password" href="#" style="color: #222d47;">Esqueceu sua
+                                    senha?</a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="p-3 d-flex justify-content-center navbar fixed-bottom" style="height: auto;">
+        <h5 style="margin-bottom: 0; font-size: 10px;" class="text-white text-center" href="javascript:;">©Todos os
+            direitos 2022 -
+            <img src="assets/images/logos/logo-branco.png"
+                style="width: 90px; margin: 0 10px; display: inline-block; margin-bottom: 0;"> - CNPJ:
+            42.538.353/0001-90
+        </h5>
+    </footer>
+
+    <script src="./assets/js/plugins/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="./assets/js/scripts/script.min.js"></script>
+    <script src="./assets/js/scripts/sidebar.large.script.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
