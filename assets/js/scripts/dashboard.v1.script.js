@@ -59,7 +59,7 @@ $(document).ready(function () {
         }
       }],
       series: [{
-        name: 'Online',
+        name: 'Novos',
         data: [35000, 69000, 22500, 60000, 50000, 50000, 30000, 80000, 70000, 60000, 20000, 30005],
         label: {
           show: false,
@@ -78,7 +78,7 @@ $(document).ready(function () {
           }
         }
       }, {
-        name: 'Offline',
+        name: 'Antigos',
         data: [45000, 82000, 35000, 93000, 71000, 89000, 49000, 91000, 80200, 86000, 35000, 40050],
         label: {
           show: false,
