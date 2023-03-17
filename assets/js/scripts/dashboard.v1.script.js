@@ -17,7 +17,7 @@ $(document).ready(function () {
         borderRadius: 0,
         orient: 'horizontal',
         x: 'right',
-        data: ['Online', 'Offline']
+        data: ['Novos', 'antigos']
       },
       grid: {
         left: '8px',
